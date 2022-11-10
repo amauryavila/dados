@@ -1,6 +1,6 @@
 basic.forever(function () {
     basic.showNumber(input.acceleration(Dimension.X))
-    if (input.acceleration(Dimension.X) <= 1) {
+    if (input.acceleration(Dimension.X) > 1 <= 1) {
         basic.showLeds(`
             . . # . .
             . # # # .
